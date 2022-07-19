@@ -33,7 +33,7 @@
     admin_username: "{{ azure_vm_user }}"
     admin_password: "{{ azure_vm_user_password }}"
     image: "{{ azure_vm_image }}"
-    vm_size: "{{ azure_bastion_vm_size | default('Standard_DS3_v3') }}"
+    vm_size: "{{ azure_bastion_vm_size | default('Standard_DS4_v2') }}"
     ssh_password_enabled: yes
     managed_disk_type: "{{ azure_vm_image_disk_type | default('Standard_LRS') }}"
     os_type: "{{ azure_vm_os | default('Linux') }}"
