@@ -9,7 +9,7 @@ source_region: eastus
 
 # Destination
 destination_resource_group: dst_rg
-destination_region: canadacentral
+destination_region: eastus
 
 # PostgreSQL Server variables
 azure_postgresql_name: "{{ source_resource_group | replace('_', '-') }}-dbserver"
