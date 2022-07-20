@@ -7,8 +7,8 @@ azure_vm_image:
   publisher: RedHat
   sku: '7-LVM'
   version: latest
-azure_vm_size: "Standard_DS2"
-azure_bastion_vm_size: "Standard_A1_v2"
+azure_vm_size: "Standard_DS2_v2"
+azure_bastion_vm_size: "Standard_DS2_v2"
 azure_number_vm: 3
 
 # PostgreSQL Server variables
